@@ -28,7 +28,7 @@ let episodes = [
 
 // Add logic here
 // ======================
-for ( let episode of episodes) {
+for (let episode of episodes) {
 	episode.hasBeenWatched = false;
 }
 
