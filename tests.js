@@ -13,7 +13,7 @@ const getWordCount = (stringToCount) => {
 // You could write a test like:
 const testSimpleWordCount = () => {
 	const testString = 'I have four words';
-	if (getWordCount(testString) !== 4) {
+	if (getWordCount(testString) !== 4) {       // if you want the function to have four words
 		console.error('Word count failed!');
 	}
 }
